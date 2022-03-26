@@ -1,0 +1,92 @@
+/* Mobile-Friendly Websites */
+/* Final Project */
+/* K0mputer N3rd */
+/* 02/18/2022 */
+
+/* style.css */
+
+/* Universal Formatting */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Heading Formatting */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+/* Jumbotron for Large Screens*/
+#jumbotron {
+  height: 100vh;
+  min-height: 400px;
+  background-color: wheat;
+  background-image: url("../img/KnitBack.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Jumbotron for Small Screens */
+@media screen and (max-width: 575px) {
+  #jumbotron {
+    height: 100vh;
+    min-height: 400px;
+    background-color: wheat;
+    background-image: url("../img/KnitTile.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+  }
+}
+
+/* Minitron for Large Screens */
+#minitron {
+  min-height: 50px;
+  background-color: wheat;
+  background-image: url("../img/KnitBack.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Minitron for Small Screens */
+@media screen and (max-width: 575px) {
+  #minitron {
+    min-height: 50px;
+    background-color: wheat;
+    background-image: url("../img/KnitTile.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+  }
+}
+
+/* Parallax */
+#parallax {
+  min-height: 100vh;
+  background-color: wheat;
+  background-image: url("../img/KnitBack.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brand {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+}
+
+.video {
+  width: 100vw;
+  max-height: 100vh;
+}
