@@ -1,6 +1,6 @@
 // Creative Yarn Crafts
 // Allen P
-// 03/19/2022
+// 04/03/2022
 
 // main.js
 
@@ -11,7 +11,7 @@
 // Script for social media links
 
 function social_alert() {
-                   alert(
-      "Social media links are not yet implemented. Please check again in a few months."
-    );
-  }
+  alert(
+    "Social media links are not yet implemented. Please check again in a few months."
+  );
+}

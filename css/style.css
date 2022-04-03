@@ -1,9 +1,21 @@
-/* Mobile-Friendly Websites */
-/* Final Project */
-/* K0mputer N3rd */
-/* 02/18/2022 */
+/* Creative Yarn Crafts */
+/* Allen P */
+/* 04/03/2022 */
 
 /* style.css */
+
+/* Define color names to match images */
+/* The following colors were picked from an image of a granny square. */
+:root {
+  --lightaran: #e1ddc4;
+  --darkaran: #dcd4bc;
+  --lightbuff: #cebb93;
+  --darkbuff: #beaf86;
+  --lightlatte: #846e4c;
+  --darklatte: #584827;
+  --lightcoffee: #22140d;
+  --darkcoffee: #040501;
+}
 
 /* Universal Formatting */
 * {
@@ -84,6 +96,18 @@ h6 {
 .logo {
   width: 44px;
   height: 44px;
+}
+
+.cyc-aran-on-brown {
+  color: var(--lightaran);
+  background-color: var(--lightcoffee);
+  border-radius: 5px;
+}
+
+.cyc-button {
+  font-family: "Akaya Telivigala", cursive;
+  color: var(--lightcoffee);
+  background-color: var(--lightbuff);
 }
 
 .video {

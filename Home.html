@@ -1,221 +1,192 @@
 <!-- Creative Yarn Crafts -->
 <!-- Allen P -->
-<!-- 03/19/2022 -->
+<!-- 04/03/2022 -->
 
 <!-- Home.html -->
 
-<!-- Bug report: The jumbotron overflows at the bottom on my phone in landscape mode -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <!-------------------------------- Head -------------------------------->
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-------------------------------- Head -------------------------------->
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Mulish&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-    <!-- Script to enable fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/d5fdc24f4a.js"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Mulish&display=swap" rel="stylesheet" />
 
-    <!-- Script for social media links -->
-    <script>
-      function social_alert() {
-        alert(
-          "Social media links are not yet implemented. Please check again in a few months."
-        );
-      }
-    </script>
+  <!-- Script to enable fontawesome -->
+  <script src="https://kit.fontawesome.com/d5fdc24f4a.js" crossorigin="anonymous"></script>
 
-    <!-- My Stylsheet -->
-    <link rel="stylesheet" href="./css/style.css" />
+  <!-- Custom scripts -->
+  <script defer src="./js/main.js"></script>
 
-    <!-- Title, Icon, etc. -->
-    <title>Creative Yarn Crafts</title>
-    <link rel="icon" type="image/x-icon" href="./img/GS-Icon.ico" />
-  </head>
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" />
 
-  <!-------------------------------- Body -------------------------------->
-  <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-1 p-lg-2">
-      <div class="container-fluid">
-        <a class="navbar-brand brand p-0" href="./Tutorials.html">
-          <img class="logo" src="./img/GS-Icon.ico" alt="Logo" />
-        </a>
-        <span class="navbar-brand brand">Creative Yarn Crafts</span>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mynavbar"
-          aria-controls="mynavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav ms-auto text-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Tutorials.html">Tutorials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Current.html">Current</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./About.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <!-- Title, Icon, etc. -->
+  <title>Creative Yarn Crafts</title>
+  <link rel="icon" type="image/x-icon" href="./img/GS-Icon.ico" />
+</head>
 
-    <!-- Jumbotron -->
-    <div class="d-flex container-fluid flex-column text-center" id="jumbotron">
-      <div class="flex-fill mt-md-2 mt-lg-3">
-        <h1 class="display-2">Creative Yarn Crafts</h1>
-      </div>
-      <div class="flex-fill">
-        <p class="m-0 p-0 fs-4 fw-bold">
-          Have you had problems learning to crochet or knit?
-        </p>
-        <p class="m-0 p-0 fs-4 fw-bold">
-          Are you interested in learning new techniques?
-        </p>
-        <p class="m-0 p-0 fs-4 fw-bold">
-          Do you need a pattern that exactly fits your specifications?
-        </p>
-      </div>
-      <div class="flex-fill">
-        <p class="fs-4 fw-bold">
-          This website is being designed to answer these questions and more.
-        </p>
-      </div>
-      <div class="flex-fill mb-3">
-        <a class="btn btn-dark btn-lg" href="#readmore" role="button">
-          Read More
-        </a>
+<!-------------------------------- Body -------------------------------->
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark p-1 p-lg-2">
+    <div class="container-fluid">
+      <a class="navbar-brand brand p-0" href="./Tutorials.html">
+        <img class="logo" src="./img/GS-Icon.ico" alt="Logo" />
+      </a>
+      <span class="navbar-brand brand">Creative Yarn Crafts</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+        aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto text-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Tutorials.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Current.html">Current</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <!-- Read More - Three Columns -->
-    <div class="container-fluid pt-3" id="readmore">
-      <div class="row">
-        <div class="order-3 col-12 col-sm-6 order-md-1 col-md-3">
-          <img
-            class="img-fluid"
-            src="./img/Under Construction.png"
-            alt="Under Construction"
-          />
-          <p>
-            This website is currently under construction. Please forgive the
-            items which don&rsquo;t work yet or don&rsquo;t work quite as
-            planned. Throughout the website you may encounter notes describing
-            plans for future development. This will give you something to look
-            forward to, perhaps a reason to visit this site again in the near
-            future.
-          </p>
-        </div>
-        <div class="order-1 col-12 col-sm-12 order-md-2 col-md-6">
-          <h2>What to Expect</h2>
-          <p>
-            The plan for this website is to include a variety of features.
-            Tutorials will be available (free) as PDFs, videos and web pages.
-            Several patterns will be available as web pages and free downloads.
-          </p>
-          <p>
-            Customized patterns are being worked on for hats, gloves, sweaters
-            and socks. Each pattern will take into account the actual gauge of
-            the person knitting or crocheting the item, as well as the
-            measurements of the person for whom the item is being made. Then the
-            pattern will be generated for an exact fit. This will allow the
-            crafter to select the yarn and size of needle or hook to be used
-            (within reasonable limits) and produce an item exactly to the
-            wearer&rsquo;s specifications. The pattern will be emailed to the
-            crafter as a PDF. Videos will be available to guide the crafter
-            through the details of the pattern.
-          </p>
-          <p>
-            Another part of the plan is to have the videos mentioned above
-            available through YouTube. A presence may also be established for
-            other social media sites.
-          </p>
-        </div>
-        <div class="order-2 col-12 col-sm-6 order-md-3 col-md-3">
-          <h2>Ideas and Suggestions</h2>
-          <p>
-            If you have ideas about items you would like to see on this site,
-            you are invited to share them. Suggestions for improvement are also
-            welcome. The <a href="Contact.html">Contact</a> page has a form for
-            giving such feedback. You can also get on the mailing list to
-            receive regular updates and be informed when significant upgrades
-            are made to this website.
-          </p>
-          <p>
-            Nobody&rsquo;s perfect. The first versions of patterns are bound to
-            have errors. Please report any errors you find so that they can be
-            fixed. Again, the <a href="Contact.html">Contact</a> page will work
-            fine for submitting such corrections.
-          </p>
-        </div>
+  <!-- Jumbotron -->
+  <div class="d-flex container-fluid flex-column text-center" id="jumbotron">
+    <div class="flex-fill mt-md-2 mt-lg-3">
+      <h1 class="display-2">Creative Yarn Crafts</h1>
+    </div>
+    <div class="flex-fill">
+      <p class="m-0 p-0 fs-4 fw-bold">
+        Have you had problems learning to crochet or knit?
+      </p>
+      <p class="m-0 p-0 fs-4 fw-bold">
+        Are you interested in learning new techniques?
+      </p>
+      <p class="m-0 p-0 fs-4 fw-bold">
+        Do you need a pattern that exactly fits your specifications?
+      </p>
+    </div>
+    <div class="flex-fill">
+      <p class="fs-4 fw-bold">
+        This website is being designed to answer these questions and more.
+      </p>
+    </div>
+    <div class="flex-fill mb-3">
+      <a class="btn btn-dark btn-lg" href="#readmore" role="button">
+        Read More
+      </a>
+    </div>
+  </div>
+
+  <!-- Read More - Three Columns -->
+  <div class="container-fluid pt-3" id="readmore">
+    <div class="row">
+      <div class="order-3 col-12 col-sm-6 order-md-1 col-md-3">
+        <img class="img-fluid" src="./img/Under Construction.png" alt="Under Construction" />
+        <p>
+          This website is currently under construction. Please forgive the
+          items which don&rsquo;t work yet or don&rsquo;t work quite as
+          planned. Throughout the website you may encounter notes describing
+          plans for future development. This will give you something to look
+          forward to, perhaps a reason to visit this site again in the near
+          future.
+        </p>
+      </div>
+      <div class="order-1 col-12 col-sm-12 order-md-2 col-md-6">
+        <h2>What to Expect</h2>
+        <p>
+          The plan for this website is to include a variety of features.
+          Tutorials will be available (free) as PDFs, videos and web pages.
+          Several patterns will be available as web pages and free downloads.
+        </p>
+        <p>
+          Customized patterns are being worked on for hats, gloves, sweaters and socks.
+          Each pattern begins with a test swatch, using the type of yarn and size of hook or needle to be used by the
+          person knitting or crocheting the item.
+          Next, the measurements are taken for the person who will be wearing the item.
+          Then a custom pattern is made so that the crafter can make the item to the exact specifications.
+          This will allow the crafter to select the yarn and size of needle or hook to be used (within reasonable
+          limits) and produce an item to exactly fit the wearer.
+          The pattern will be emailed to the crafter as a PDF.
+          Videos will be available to guide the crafter through the details of the pattern.
+        </p>
+        <p>
+          Another part of the plan is to have the videos mentioned above
+          available through YouTube. A presence may also be established for
+          other social media sites.
+        </p>
+      </div>
+      <div class="order-2 col-12 col-sm-6 order-md-3 col-md-3">
+        <h2>Ideas and Suggestions</h2>
+        <p>
+          If you have ideas about items you would like to see on this site,
+          you are invited to share them. Suggestions for improvement are also
+          welcome. The <a href="Contact.html">Contact</a> page has a form for
+          giving such feedback. You can also get on the mailing list to
+          receive regular updates and be informed when significant upgrades
+          are made to this website.
+        </p>
+        <p>
+          Nobody&rsquo;s perfect. The first versions of patterns are bound to
+          have errors. Please report any errors you find so that they can be
+          fixed. Again, the <a href="Contact.html">Contact</a> page will work
+          fine for submitting such corrections.
+        </p>
       </div>
     </div>
+  </div>
 
-    <!-- Footer with social media icons -->
-    <footer class="p-2 bg-dark text-center text-white">
-      <p>
-        <a href="#" onclick="social_alert()">
-          <i class="p-2 text-white fab fa-youtube-square fa-2x"></i>
-        </a>
-        <a href="#" onclick="social_alert()">
-          <i class="p-2 text-white fab fa-facebook-square fa-2x"></i>
-        </a>
-        <a href="#" onclick="social_alert()">
-          <i class="p-2 text-white fab fa-instagram-square fa-2x"></i>
-        </a>
-        <a href="#" onclick="social_alert()">
-          <i class="p-2 text-white fab fa-twitter-square fa-2x"></i>
-        </a>
-      </p>
-      <p>
-        Website Design and Content Copyright &copy; 2022 Creative Yarn Crafts
-      </p>
-    </footer>
+  <!-- Footer with social media icons -->
+  <footer class="p-2 bg-dark text-center text-white">
+    <p>
+      <a href="#" onclick="social_alert()">
+        <i class="p-2 text-white fab fa-youtube-square fa-2x"></i>
+      </a>
+      <a href="#" onclick="social_alert()">
+        <i class="p-2 text-white fab fa-facebook-square fa-2x"></i>
+      </a>
+      <a href="#" onclick="social_alert()">
+        <i class="p-2 text-white fab fa-instagram-square fa-2x"></i>
+      </a>
+      <a href="#" onclick="social_alert()">
+        <i class="p-2 text-white fab fa-twitter-square fa-2x"></i>
+      </a>
+    </p>
+    <p>
+      Website Design and Content Copyright &copy; 2022 Creative Yarn Crafts
+    </p>
+  </footer>
 
-    <!-- Bootstrap Bundle with Popper - Must Be at End of Body -->
+  <!-- Bootstrap Bundle with Popper - Must Be at End of Body -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
